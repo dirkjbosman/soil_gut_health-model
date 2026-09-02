@@ -51,15 +51,19 @@ This project uses `uv` for lightning-fast, reproducible dependency management an
 You can execute the pipeline modules individually or run the master orchestrator to automatically generate all datasets, models, plots, and the unified HTML report.
 
 ### Option A: Run via Master Orchestrator (Recommended)
+```bash
 uv run main.py
+```
 
 ### Option B: Execute Scripts Individually per Step
+```bash
 uv run src/seed.py
 uv run src/mung.py
 uv run src/model.py
 uv run src/refute.py
 uv run src/shap.py
 uv run src/report.py
+```
 
 ---
 
@@ -76,4 +80,4 @@ uv run src/report.py
 
 ## 📜 License
 
-Distributed under the MIT License. See LICENSE for more information.
+Created and currently maintained by yours truely djb (https://x.com/dirkjbosman). Distributed under the MIT License. See LICENSE for more information.
