@@ -1,0 +1,20 @@
+[project]
+name = "soil-gut-health-model"
+version = "0.1.0"
+description = "Causal inference pipeline for the Soil-Plant-Animal-Gut axis"
+readme = "README.md"
+requires-python = "==3.11.*"
+dependencies = [
+    "dowhy>=0.11.1",
+    "llvmlite==0.41.1",
+    "matplotlib>=3.11.1",
+    "networkx==2.8.8",
+    "numba==0.58.1",
+    "numpy",
+    "pandas<2.0.0",
+    "pyvis",
+    "scikit-learn",
+    "scipy",
+    "shap==0.44.0",
+    "xgboost",
+]
