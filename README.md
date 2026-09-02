@@ -9,23 +9,23 @@ A robust, modular causal inference and machine learning pipeline modeling comple
 ```
 soil_gut_health-model/
 ├── analysis/
-│   ├── index.html              # Unified executive dashboard (HTML)
-│   ├── interactive_dag.html    # Interactive vis.js causal network graph
+│   ├── index.html                      # Unified executive dashboard (HTML)
+│   ├── interactive_dag.html            # Interactive vis.js causal network graph
 │   └── img/
-│       └── shap_summary.png    # Multi-feature SHAP impact summary plot
+│       └── shap_summary.png            # Multi-feature SHAP impact summary plot
 ├── data/
-│   ├── soil_gut_dataset.csv          # Raw synthetic dataset (1,500 samples)
-│   └── processed_soil_gut_dataset.csv # Scaled and outlier-capped dataset
+│   ├── soil_gut_dataset.csv            # Raw synthetic dataset (1,500 samples)
+│   └── processed_soil_gut_dataset.csv  # Scaled and outlier-capped dataset
 ├── src/
-│   ├── seed.py                 # Synthetic data generation engine
-│   ├── mung.py                 # Data preprocessing, scaling & outlier clipping
-│   ├── model.py                # Causal DAG modeling & DoWhy ATE estimation
-│   ├── refute.py               # Dual-refutation validation suite (Placebo & Random Common Cause)
-│   ├── shap.py                 # XGBoost training & SHAP interpretability engine
-│   └── report.py               # Automated unified HTML dashboard compiler
-├── main.py                     # Master orchestration script
-├── pyproject.toml              # Project metadata and strict dependency pinning
-└── uv.lock                     # Locked dependency environment
+│   ├── seed.py                         # Synthetic data generation engine
+│   ├── mung.py                         # Data preprocessing, scaling & outlier clipping
+│   ├── model.py                        # Causal DAG modeling & DoWhy ATE estimation
+│   ├── refute.py                       # Dual-refutation validation suite (Placebo & Random Common Cause)
+│   ├── shap.py                         # XGBoost training & SHAP interpretability engine
+│   └── report.py                       # Automated unified HTML dashboard compiler
+├── main.py                             # Master orchestration script
+├── pyproject.toml                      # Project metadata and strict dependency pinning
+└── uv.lock                             # Locked dependency environment
 ```
 
 ---
