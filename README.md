@@ -6,6 +6,7 @@ A robust, modular causal inference and machine learning pipeline modeling comple
 
 ## 📂 Repository Architecture
 
+```
 soil_gut_health-model/
 ├── analysis/
 │   ├── index.html              # Unified executive dashboard (HTML)
@@ -25,6 +26,7 @@ soil_gut_health-model/
 ├── main.py                     # Master orchestration script
 ├── pyproject.toml              # Project metadata and strict dependency pinning
 └── uv.lock                     # Locked dependency environment
+```
 
 ---
 
